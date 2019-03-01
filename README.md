@@ -1,4 +1,4 @@
-<h2>A-web-scraper-</h2>
+<h2>Web browser bot written in Python</h2>
 <p>This repository contains a bot that is capable of publishing ads into the BonCoin Web site (for service type only "prestation et service"). You have to start by installing Python libraries, the list is shown below, if you don't have Python, search in google: how to install Python. It is quit easy, use Python 3.X, as it is the version that I am using for my project.</p>
 <ul><li>splinter</li>
   <li>selenium</li>
