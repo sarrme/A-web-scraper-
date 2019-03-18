@@ -42,7 +42,7 @@ def post(thread,i):
             files = os.listdir(dir_path_annonce)
             chosen = random.sample(files,3)
             if(j==0)
-            # the fist step require to connect to the website with the information user user credentials
+            # the fist step require to connect to the website with the user credentials
                 url = "https://www.leboncoin.fr/"
                 browser.visit(url)
                 # accepting cookies
@@ -123,7 +123,7 @@ p=0
 enter = True
 dic = {}
 while enter:
-    # reading the content header of every sheet and transfoming it into a dictionary
+    # reading the content header of every sheet and transforming it into a dictionary
     try:
         sheet = wb.sheet_by_index(p)
         publication  = sheet.cell_value(0,1)
